@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cálculo de Multa | Teste de front-end</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h2 class="title">Cálculo de Multa</h2>
+
+
+        <form class="form">
+            <label for="getVelocity">Insira a velocidade</label>
+            <input type="number" placeholder="Ex.: 70.5" id="getVelocity">
+        </form>
+
+        <button id="submitForm">Calcular Multa</button>
+
+        <div class="result">
+            <h2>Seu resultado:</h2>
+            <div class="textResult">
+                <p class="IMCResult"></p>
+            </div>
+
+            <button id="repeatBtn">Reiniciar</button>
+        </div>
+
+    </div>
+
+    <script src="./assets/script.js"></script>
 </body>
+
 </html>
